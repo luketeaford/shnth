@@ -1,10 +1,11 @@
-(left 
+ (left 
  (saw 16 16 (slew (bar) 96 2)) 
  (horn 20 16 (bar)) 
  (hornb 24 16 (bar)) 
  (sawb 12 16 (slewb (barb) 98 2)) 
  (hornc 18 16 (barb)) 
  (hornd 4 16 (barb)) 
+ (stringd (sawh 1 127 (toggleh (minord))) 9 127 125) 
 ) 
  (right 
  (sawc 18 16 (slewc (barc) 94 2)) 
@@ -12,5 +13,6 @@
  (hornf 54 64 (barc)) 
  (sawd 10 16 (slewd (bard) 97 2)) 
  (horng 24 16 (bard)) 
- (hornh 48 16 (bard)) 
+ (hornh 48 16 (bard))
+ (string (sawg 4 127 (toggleg (minor))) 15 127 125) 
 )
